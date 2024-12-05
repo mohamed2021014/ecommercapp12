@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "205604994822",
+    "project_id": "ecommerc-fa9dc",
+    "storage_bucket": "ecommerc-fa9dc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205604994822:android:648a871a67125a063fe887",
+        "android_client_info": {
+          "package_name": "com.example.ecomerca"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPC9fWl7bJvmYbAbSYk00gZOJUVN4FtIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

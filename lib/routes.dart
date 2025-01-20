@@ -1,7 +1,8 @@
 
 
 import 'package:ecomerca/core/constant/routes.dart';
-import 'package:ecomerca/src/view/screen/home_screen.dart';
+import 'package:ecomerca/src/view/screen/home.dart';
+
 import 'package:ecomerca/src/view/screen/outh/login.dart';
 import 'package:ecomerca/src/view/screen/outh/signup.dart';
 
@@ -14,7 +15,7 @@ import 'package:get/get.dart';
   ]),*/
    GetPage(name:AppRoute.login , page:() =>const  Login() ) , 
       GetPage(name:AppRoute.Signup , page:() =>  Signup() ) , 
-       GetPage(name:AppRoute.home , page:() => const HomeScreen() ) , 
+            GetPage(name:AppRoute.home , page:() =>  const Home() ) , 
  ] ;
 
 

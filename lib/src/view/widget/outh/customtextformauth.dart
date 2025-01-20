@@ -7,7 +7,8 @@ class CustonTextFormAuth extends StatelessWidget {
   final IconData iconData;
   final TextEditingController? mycontroller;
   final bool? obscureText;
-  final void Function()? onTap;
+  final void Function()? onTap; 
+  final String? Function(String?)? validator ;
   const CustonTextFormAuth(
       {super.key,
       required this.hinttext,
@@ -15,7 +16,7 @@ class CustonTextFormAuth extends StatelessWidget {
       required this.iconData,
       this.mycontroller,
       this.obscureText,
-      this.onTap});
+      this.onTap, this.validator});
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +25,8 @@ class CustonTextFormAuth extends StatelessWidget {
       child: TextFormField( 
         
         obscureText: obscureText == null || obscureText == false ? false : true,
-        controller: mycontroller,
+        controller: mycontroller, 
+        validator: validator,
         decoration: InputDecoration( 
           focusedBorder:const OutlineInputBorder(   borderRadius: BorderRadius.all(Radius.circular(30)),
              borderSide: BorderSide( color:AppColor.primrecolor)),

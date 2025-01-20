@@ -1,6 +1,6 @@
 
 
-import 'package:ecomerca/core/constant/app_color.dart';
+
 import 'package:ecomerca/data/datasource/static/static.dart';
 import 'package:ecomerca/src/controller/outh/onboarding_controller.dart';
 
@@ -27,7 +27,7 @@ class CustomDotControllerOnBoarding extends StatelessWidget {
                           width: controller.currentPage == index ? 20 : 5,
                           height: 6,
                           decoration: BoxDecoration(
-                              color: AppColor.primrecolor,
+                              color:Colors.black,
                               borderRadius: BorderRadius.circular(10)),
                         ))
               ],

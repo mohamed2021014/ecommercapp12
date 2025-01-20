@@ -1,11 +1,11 @@
 
-import 'package:ecomerca/core/constant/app_color.dart';
 
 
 import 'package:ecomerca/src/controller/outh/onboarding_controller.dart';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 
 class CustomButtonOnBoarding extends GetWidget<OnBoardingControllerImp> {
@@ -27,8 +27,8 @@ class CustomButtonOnBoarding extends GetWidget<OnBoardingControllerImp> {
           onPressed: () {
             controller.next() ; 
           },
-          color: AppColor. primrecolor,
-          child: const Text("Continue")),
+          color: Colors.black,
+          child:  Text("Continue" ,style: GoogleFonts.aboreto(),)),
     );
   }
 }

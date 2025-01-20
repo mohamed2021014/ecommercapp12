@@ -13,6 +13,7 @@ Future<bool> alertExitApp() {
         ElevatedButton(
             style: ButtonStyle(
                 backgroundColor:
+                    // ignore: deprecated_member_use
                     MaterialStateProperty.all(AppColor.darkOrange)),
             onPressed: () {
               exit(0);
@@ -21,6 +22,7 @@ Future<bool> alertExitApp() {
         ElevatedButton(
             style: ButtonStyle(
                 backgroundColor:
+                    // ignore: deprecated_member_use
                     MaterialStateProperty.all(AppColor.darkOrange)),
             onPressed: () {
               Get.back();
